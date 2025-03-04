@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        #about {
+            padding: 20px;
+        }
+        #about img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        #skills li {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .project {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        #contact {
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        @media (max-width: 600px) {
+            #skills ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SUBASRI A S</h1>
+        <p>Web Developer | Designer </p>
+    </header>
+    
+    <section id="about">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl4ip4Pn1UDDc1GMlJMTGl3ZPXCiKrHrGsqOK2IYlrfDQ3cCgJ7xJ4VCvTSJm15AHMaLs&usqp=CAU" alt="Your Image">
+        <p>Hello! I am a web developer with experience in HTML, CSS, and JavaScript...</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Ux/Ui</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="https://flylib.com/books/2/631/1/html/2/images/13fig01.jpg" alt="Project 1">
+            <h3>Random link generator</h3>
+            <p>A Random Link Generator website randomly selects and displays a URL from a predefined list when a user clicks a button. It uses JavaScript for random selection, ensuring dynamic and interactive user experience. The project is useful for suggesting articles, videos, or fun websites in a surprise format.</p>
+        </div>
+        <div class="project">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQojCWSUO9f9YCISC4O1ejATOVYhpE6Co12bg&s" alt="Project 2">
+            <h3>Random emoji generator</h3>
+            <p>A Random Emoji Generator displays a randomly selected emoji from a predefined list or Unicode set when a user clicks a button. It uses JavaScript to generate and display different emojis dynamically. This fun project can be used for entertainment, inspiration, or emoji-based games.</p>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="c:\Users\subasri\Downloads\2b97c1f2ca70558bf016c270fd0892be.jpg" download>Download Resume</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: subasrii057@gmail.com</p>
+        <p>Phone: 75503xxxxx</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 subasri. All rights reserved.</p>
+    </footer>
+</body>
+</html>

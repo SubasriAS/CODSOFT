@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color:rgb(208, 208, 161);
+            text-align: center;
+        }
+        header {
+            background: rgb(207, 153, 52);
+            color: black;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+            color:black;
+        }
+        nav ul li a {
+            color:black;;
+            text-decoration: none;
+        }
+        .main {
+            padding: 100px 20px;
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            color: black;
+        }
+        .main h1 {
+            font-size: 48px;
+        }
+        .main p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .about p {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .about h3{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff5733;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .features {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .feature {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            max-width: 300px;
+        }
+        .contact {
+            background: #f4f4f4;
+            padding: 50px 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>study website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="main">
+        <h1>Welcome to Our Study Website</h1>
+        <p>Your one-stop solution for all needs</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section>
+        <div class="about">
+            <h3>About Us</h3>
+         <p> Website study is a platform designed to provide learning resources, courses, and educational materials to students, teachers, and professionals. It may include interactive lessons, video tutorials, quizzes, and certifications to enhance the learning experience. These websites aim to make education accessible, engaging, and flexible for users worldwide.</p>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <h2>MERN Stack</h2>
+           
+        </div>
+        <div class="feature">
+            <h2>Data Science</h2>
+           
+        </div>
+        <div class="feature">
+            <h2>Firebase</h2>
+          
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: subasrii04hd@gmail.com</p>
+        <p>Phone: 75077vyufv</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Study Website, All rights reserved.</p>
+    </footer>
+</body>
+</html>
